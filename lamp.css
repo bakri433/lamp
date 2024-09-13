@@ -1,0 +1,221 @@
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+}
+.container .lamp{
+    position: absolute;
+    border: 2px solid;
+    border-radius: 50%;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 170px;
+    border-bottom: 1px solid white;
+    height: 77px;
+}
+.container .botton{
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+    position: absolute;
+    border: 4px solid;
+    padding: 45px;
+    width: 94px;
+    z-index: 10000;
+    background-color: gray;
+}
+.container .botton1{
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+    position: absolute;
+    border: 4px solid;
+    padding: 45px;
+    height: 100px;
+    width: 1px;
+    border-top: none;
+    border-radius: 82%;
+    background-color: gainsboro;
+}
+.botton1 span{
+    position: absolute;
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    right: 1px;
+}
+.botton1 .line1{
+    position: absolute;
+    top: 105px;
+}
+.botton1   .line2{
+    position: absolute;
+    top: 140px;
+    width: 81px;
+    right: 6px;
+}
+.botton1    .line3{
+    width: 59px;
+    position: absolute;
+    top: 168px;
+    right: 16px;
+}
+.container .lamp span{
+    width: 4px;
+    position: absolute;
+    height: 200px;
+    background-color: black;
+    top: 230px;
+}
+.container .lamp .one{
+    position: absolute;
+    left: 200px;
+}
+.container .lamp .two{
+    position: absolute;
+    right: 200px;
+}
+.container .lamp .three{
+    position: absolute;
+    /* right: 200px; */
+    height: 4px;
+    width: 115px;
+    top: 234px;
+    right: 111px;
+}
+.container .lamp .circle1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 4px solid;
+    border-radius: 50%;
+    left: 198px;
+    top: 205px;
+    border-bottom: none;
+}
+.container .lamp .circle2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 4px solid;
+    border-radius: 50%;
+    right: 198px;
+    top: 205px;
+    border-bottom: none;
+
+}
+.container .all{
+    width: 100%;
+    height: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.container .play{
+    width: 116px;
+    height: 159px;
+    position: absolute;
+    border: 3px solid;
+    top: 27%;
+    left: 73%;
+    background-color: gainsboro;
+}
+.play span{
+    width: 100px;
+    height: 58%;
+    position: absolute;
+    border: 2px solid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+}
+.play .on{
+
+}
+.play .off{
+    position: absolute;
+    top: 52%;
+}
+.play h2{
+    font-family: system-ui;
+    font-size: 35px;
+    position: relative;
+    bottom: 10%;
+    cursor: pointer;
+}
+.play span .c-1{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: 5px solid gray;
+    border-radius: 50%;
+    left: 5%;
+    top: 2%;
+    cursor: pointer;
+  
+}
+.play span .c-2{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: 5px solid red;
+    border-radius: 50%;
+    left: 5%;
+    top: 2%;
+    cursor: pointer;
+}
+.play .green{
+    color: gray;
+}
+.play .red{
+    color: red;
+}
+.play span .c-1.on{
+    border: 5px solid green;
+    box-shadow: 0 0 10px green;
+}
+.play span .green.on{
+    color: green;
+}
+.container .lamp.on{
+background-color: yellow;
+border: none;
+box-shadow: 0 0 10px yellow;
+}
+.play span .c-2.on{
+    border: 5px solid gray;
+}
+.play span .red.on{
+    color: gray;
+}
+.all .lamp .one.on{
+    visibility: hidden;
+} 
+ .all .lamp .two.on{
+    visibility: hidden;
+ }
+ .all .lamp .three.on {
+    visibility: hidden;
+ }
+ .all .lamp .circle1.on {
+    visibility: hidden;
+ }
+ .all .lamp .circle2.on {
+    visibility: hidden;
+}
+.container .lamp .circle3{
+    width: 50px;
+    height: 86px;
+    position: absolute;
+    /* border: 1px solid; */
+    border-radius: 57%;
+    bottom: 75%;
+    left: 65%;
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
